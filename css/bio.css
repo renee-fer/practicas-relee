@@ -1,0 +1,26 @@
+/*DOCUMENTO CSS*/
+
+.cabecera {width: 100%;
+background-color: rgb(250, 234, 11);
+padding: 16px 0px;}
+
+body { background-color: rgb(181, 1, 1);}
+
+h2 {font-family: "Rock Salt", cursive;}
+
+p {font-family: "Roboto", sans-serif;}
+
+h1 {font-family: "Rock Salt", cursive;
+    text-align: center;}
+
+img {display: block;
+    margin: auto;}
+
+table { margin: 0 auto;
+    border-collapse: separate ;
+    border-spacing: 18px 10px;}
+
+hr {
+    height: 2px; /* Grosor de la linea*/
+    background-color: rgb(136, 255, 255);
+    border: none;}

@@ -1,0 +1,35 @@
+/*DOCUMENTO CSS*/
+h3{color: aliceblue;
+    font-size: 1.3em;
+text-shadow:col ;
+padding-top: 70px;}
+
+.container {width: 80%; 
+            min-height: 1px;
+            padding: 16px 16px 16px 0px;
+            background-color: rgb(195, 143, 244);
+            display: flex;
+            margin: 32px auto 32px auto;
+            justify-content: space-between;
+            align-items: stretch;}
+
+.items {background-color: rgb(255, 155, 253);
+        width: 25%;
+        margin-left: 16px;
+        height: 150px;
+        text-align: center;
+    background-image: url(https://picsum.photos/id/13/200/300);
+background-size: 100px 100px; }
+
+.tres {align-self: flex-start;}
+
+/*MEDIA QUERIES*/
+
+/*BREAKPOINT 600*/
+@media only screen and (min-widht768px) {
+    .container {flex-direction: row;
+                flex-wrap: wrap;}
+
+    .items { width: 50%;
+            margin-bottom: 16px;}
+}

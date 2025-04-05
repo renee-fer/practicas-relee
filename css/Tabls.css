@@ -1,0 +1,22 @@
+/*Documento CSS*/
+*{margin: 0px;
+padding: 0px;}
+
+body {font-family: "Roboto Condensed", sans-serif;}
+
+h1 {font-family: "Winky Sans", sans-serif;
+    text-align: center;}
+
+.cabecera {margin-bottom: 32px;}
+
+.tablas {background-color: rgb(217, 184, 248);
+            min-height: 1px;
+            padding: 16px 0px;
+            margin-bottom: 32px;}
+
+div.tablas {background-color: rgb(255, 180, 237);
+            margin-bottom: 380px;}
+
+.tablas table {margin: auto;}
+
+.pie {background-color: rgb(176, 91, 255);}

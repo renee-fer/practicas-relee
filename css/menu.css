@@ -1,0 +1,56 @@
+/*DOCUMENTO CSS*/
+
+        * {margin: 0;
+           padding: 0;}
+        
+           
+        .cabecera {
+                    background-color: rgb(191, 170, 255);
+                    color: aliceblue;
+                    padding-top: 8px;
+                    min-height: 1px;}
+        
+        .bar {width: 100%;
+             min-height: 1px;}
+        
+        .logo {color: rgb(255, 173, 243);
+                width: 40px;
+                font-size: 2em;
+                display: block;
+                margin: auto;}
+        
+        .container {display: flex;
+                    width: 100%;
+                    flex-flow: row wrap;}
+        
+        .items {width: 50%;
+                text-align: center;
+                color: black;
+                background-color: rgb(255, 185, 240);
+                padding: 8px 0px;}
+        
+                
+        .container a:first-child {display: none;}
+        
+        /*BREAKPOINT 600PX*/
+
+        @media only screen and (min-width:600px)
+        {width: 25%; }
+        .logo {font-size: 3em;}
+   
+        
+        /*BREAKPOINT 992PX*/
+        @media only screen and (min-width:992px) 
+
+         {width: 20%;}
+        
+        .logo {font-size: 3em;}
+        
+        .container {width: 80%;
+                    margin: auto;
+                position: relative;
+            top: 15px;}
+        
+        .container a:first-child {display: block;
+                                border:top left 16px;
+                            border: bottom left 15px; }
